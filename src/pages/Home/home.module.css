@@ -1,0 +1,75 @@
+.home{
+    padding: 0px 16px;
+    min-height: calc(100vh - 64px);
+    background-color: aliceblue;
+}
+
+.main{
+    height: 80vh;
+    border: 2px solid rosybrown;
+    background-color: aliceblue;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.header22{
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    padding: 12px;
+    background-color: beige;
+    border: 1px solid rgb(255, 255, 20);
+}
+
+.textFeilds{
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 20px;
+}
+
+.textFeilds label{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.textFeild{
+    margin-bottom: 20px;
+}
+.textFeild p{
+    text-align: center;
+}
+
+.loginbutton{
+    cursor: pointer;
+    width: 100%;
+    padding: 8px 0px;
+    font-size: 17px;
+    font-weight: 800;
+    background-color: aquamarine;
+    border: 2px solid rgb(0, 255, 170);
+    outline: none;
+    border-radius: 10px;
+}
+
+.textFeild span{
+    color:blue;
+    cursor: pointer;
+}
+
+.textFeild span:hover{
+    color:blue;
+    border-bottom: 1px solid blue;
+}
+
+.projectNameinput{
+    border: none;
+    border-bottom: 1px solid grey;
+    background-color: azure;
+    padding: 0px 16px;
+}
+
+.head{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}

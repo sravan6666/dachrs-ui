@@ -1,0 +1,291 @@
+.sign-in-container{
+    width: 90%;
+    margin:  auto;
+  }
+  .sign-in-wrapper{
+    height: 100%;
+    width: 100%;
+   
+  }
+  .sign-in-header-img{
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+   
+    height: 80px;
+  }
+  .sign-in-header-img img{
+    margin: auto;
+    object-fit: contain;
+    width: 50%;
+    height: 100%;
+  }
+  
+  .sign-in-body{
+    display: flex;
+    margin-top: 5px;
+  }
+  .sigin-in-left{
+    width: 50%;
+  }
+  .sign-in-right{
+    width: 50%;
+    text-align: center;
+  }
+  .sign-in-right img{
+    height: 100%;
+    object-fit: contain;
+    width: 100%; 
+  
+    
+  }
+  .sign-in-heading{
+    padding: 0px 25px;
+  }
+  .sigin-in-left-wrapper{
+    width: 80%;
+    margin: 5px auto;
+    padding-bottom: 30px;
+  }
+  .sign-in-details-body{
+    padding: 0px 25px;
+    margin: 0px;
+  }
+  
+  .login-registerName{
+    width: 100%;
+  }
+  
+  @media screen and (max-width:850px) {
+    .sigin-in-left-wrapper{
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width:680px) {
+    .sign-in-right{
+      display: none;
+    }
+    .sigin-in-left{
+      width: 100%;
+    }
+    .sigin-in-left-wrapper{
+      width: 70%;
+    }
+  }
+  @media screen and (max-width:490px) {
+    .sign-in-right{
+      display: none;
+    }
+    .sigin-in-left{
+      width: 100%;
+    }
+    .sigin-in-left-wrapper{
+      width:100%;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .modal-pop {
+    background-color: white !important;
+    left: 12%;
+    top: 9%;
+    position: absolute;
+    box-shadow: 1px 2px 8px #00000052 !important;
+  }
+  .ideas-sty {
+    width: 85%;
+    position: relative;
+    left: 12%;
+    /* bottom: 32px; */
+    z-index: 1;
+    top:14px;
+  }
+  .log-sty {
+    width: 200px;
+  }
+  .button-sty {
+    position: relative;
+    left: 62%;
+    background-color: tomato !important;
+    height: 38px;
+    top: 25px;
+    width: 125px !important;
+    border-radius: 15px !important;
+    -webkit-border-radius: 15px !important;
+    -moz-border-radius: 15px !important;
+    -ms-border-radius: 15px !important;
+    -o-border-radius: 15px !important;
+  }
+  .text-sty {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    font-size: 56px;
+    color: blue;
+    font-weight: 600;
+    font-family: inherit;
+    line-height: 0.9;
+  }
+  .inp-sty {
+    position: absolute;
+    bottom: 25%;
+    left: 38px;
+  }
+  
+  /* .background-img{
+      width:100px;
+      height:100px;
+      background:red;
+      border-radius:50%;
+      position: absolute;
+  } */
+  .login-sty {
+    margin-left: 25px;
+    padding: 11px;
+  }
+  .h6-sty {
+    margin-left: 36px;
+    margin-top: -18px;
+  }
+  .third-layer {
+    margin: 25px !important;
+    width: 122%;
+  }
+  .psw-sty {
+    width: 20rem;
+    margin-top: 0px !important ;
+  }
+  .MuiFormControl-root {
+    border: 0;
+    margin: 0;
+    display: inline-flex;
+    padding: 0;
+    position: relative;
+    min-width: 0;
+    flex-direction: column;
+    vertical-align: top;
+    width: 316px !important;
+  }
+  
+  .div-stys{
+     width: 100%; 
+     height: 20px;
+     border-bottom: 1px solid black;
+      text-align: center ;
+      margin-top: 18px;
+  }
+  
+  .hr-text{
+    position:relative;
+    bottom:2px;
+    font-size: 18px; 
+    background-color: #fff; 
+    padding: 0 10px;
+    text-align: center;
+  }
+  .MuiFab-primary{
+    display: none;
+  }
+  
+  .firstname{
+    height: 50px;
+    width: 10px;
+  }
+  
+  
+  .first-slid{
+    margin-top: 20px;
+  }
+  
+  
+  .in-style .MuiFormControl-root{
+    width:120px !important
+  }
+  
+  .text{
+    /* width: 250px !important; */
+    display: flex ;
+    /* flex-direction: row;
+    justify-content: space-between; */
+    
+  }
+  .textside{
+    padding: 10px;
+    margin:10px;
+  }
+  
+  .text-3{
+    margin-left: 10px !important;
+  
+  }
+  .first-slid.MuiInputBase-root{
+    width: 200px !important;
+  }
+  .Pera{
+    text-emphasis: none;
+    content: none;
+    text-align: justify;
+    justify-content: left;
+  }
+  .ramana{
+    margin-top: 10px;
+  }
+  .otp-field{
+    width: 20px;
+    margin-left: 14px;
+    height: 24px;
+    font-style: bold;
+    text-align: center;
+  }
+  .btn5{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between
+  /* margin-left: 10px; */
+  }
+ 
+  .resend{
+    color: red;
+  }
+  .update{
+    font-weight: bold;
+  }
+   .sign-in-other{
+     width: 100%;
+     display: flex;
+     margin-top: 20px;
+   }
+   .sign-in-other img{
+     width: 25px;
+     height: 25px;
+   }
+   .sign-in-other span{
+     color: tomato;
+     margin-left: 5px;
+     font-weight: bold;
+   }
+   .sign-google, .sign-fb{
+     width: 50%;
+     cursor: pointer;
+     padding:7px 15px;
+     display: flex;
+     
+     flex-direction: row;
+     align-items: center;
+     margin: 5px 5px;
+   }
+  
+@media screen and (max-width:650px) {
+    .loginimg{
+        display: none;
+    }
+}

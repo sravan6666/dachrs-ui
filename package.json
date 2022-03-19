@@ -1,0 +1,45 @@
+{
+  "name": "primer-react",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {},
+  "homepage": "https://primer.fusepx.com/react",
+  "dependencies": {
+    "@material-ui/core": "4.11.1",
+    "@material-ui/icons": "4.9.1",
+    "@material-ui/lab": "4.0.0-alpha.56",
+    "@material-ui/styles": "4.11.1",
+    "axios": "^0.21.1",
+    "classnames": "^2.2.6",
+    "date-fns": "2.16.1",
+    "jss-rtl": "0.3.0",
+    "moment": "2.29.1",
+    "react": "17.0.1",
+    "react-beautiful-dnd": "13.0.0",
+    "react-dom": "17.0.1",
+    "react-redux": "^7.2.4",
+    "react-router-dom": "5.2.0",
+    "react-scripts": "4.0.1",
+    "redux": "^4.1.1",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "now-build": "REACT_APP_GOOGLE_API_KEY=AIzaSyB3HQ_Gk_XRt6KitPdiHQNGpVn0NDwQGMI REACT_APP_WEATHER_API_KEY=21e6c83d2ae49fcf682cd1ba0bf519f5 REACT_APP_STOCKS_API_KEY=BUD8QAPBEBKXL90X react-scripts build"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

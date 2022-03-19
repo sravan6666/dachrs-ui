@@ -1,0 +1,78 @@
+ *{
+    font-family: 'Nunito';
+ }
+ 
+ ::-webkit-scrollbar {
+    height: 10px;
+    width: 4px;
+}
+
+ ::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: transparent;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+ ::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color:#5f5b5b
+}
+
+
+.btn__cancel{
+    padding: 5px 3px;
+    border: 1px solid red;
+	transform: translateY(0px);
+	transition: 0.3s linear;
+	background-color: rgba(255, 219, 219, 0.4);
+	border-radius: 3px;  
+	cursor: pointer;
+	outline: none;
+	color:red;
+	margin: 5px 0px;
+	font-size: 16px;
+    transition: 0.2s ease;
+}
+
+.btn__cancel:hover{
+	background: red;
+    color: white;
+}
+
+.btn__update{
+    padding: 5px 3px;
+    border: 1px solid darkgreen;
+	transform: translateY(0px);
+	transition: 0.3s linear;
+	background-color: rgba(218, 255, 218, 0.3);
+	border-radius: 3px;  
+	cursor: pointer;
+	outline: none;
+	color:darkgreen;
+	margin: 5px 0px;
+	font-size: 16px;
+    transition: 0.2s ease;
+}
+
+.btn__update:hover{
+	background: darkgreen;
+    color: white;
+}
+
+.add_new_task_btn{
+	background-color: white;
+    color: #5a5959;
+    outline: none;
+    border: none;
+    height: 33px;
+    width: 33px;
+    border-radius:50%;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.makeStyles-searchInput-143{
+    padding:12px !important
+}
+
+
